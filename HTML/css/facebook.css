@@ -1,0 +1,238 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+
+.topbar{
+	width:100%;
+	height: 90px;
+	color:white;
+	display: inline-grid;
+	background-color: #3b5998;
+}
+
+.facebookfont{
+	padding-left: 200px;
+	font-family: Segoe UI;
+	font-size: 42px;
+	font-weight: bold;
+	padding-top: 24px;
+}
+
+.topbar{
+	display: grid;
+	grid-template-columns: 55% 13% 13% 19%;
+	grid-gap: 10px;
+
+}
+
+.topbar >div{
+	background-color: #3b5998;
+
+}
+
+.topbar >div:nth-child(odd){
+	background-color: #3b5998;
+}
+
+.email{
+	padding-top: 15px;
+}
+
+.email input[type="text"]{
+	margin-top: 5px;
+}
+
+.password{
+	padding-top: 15px;
+
+}
+
+.password input[type="password"]{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+#account{
+	color:	#8b9dc3;
+	
+}
+
+.login input[type="submit"]{
+	margin-top: 38px;
+	height: 20px;
+	background-color: #8b9dc3;
+	color:white;
+	border: none;
+}
+
+.wholelowersection{
+	height: 600px;
+	display: grid;
+	grid-template-columns: 55% 45%;
+
+}
+
+.wholelowersection >div{
+	background-color: 	#dfe3ee;
+
+}
+
+.wholelowersection >div:nth-child(even){
+	background-color: #dfe3ee;
+}
+
+#signup{
+	font-family: Segoe UI;
+	font-size: 38px;
+	font-weight: bold;
+}
+
+#free{
+	font-family: Segoe UI;
+	font-size: 20px;
+
+}
+
+.secondsection input[type="text"]{
+	height: 36px;
+
+}
+
+.name{
+	font-size: 20px;
+	width: 200px;
+	margin-top: 25px;
+	text-indent: 10px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+}
+
+.flname{
+	display: grid;
+	grid-template-columns: 37% 60%;
+	
+}
+
+.mp{
+	height: 36px;
+	font-size: 20px;
+	width: 425px;
+	margin-top: 12px;
+	text-indent: 10px;
+	border: 1px solid #ccc;
+	border-radius: 6px;
+}
+
+.secondsection input[type="password"]{
+	margin-bottom: 10px;
+}
+
+#lblbirthday{
+	font-size: 20px;
+}
+
+.birthdayselect{
+	height: 30px;
+	width:70px;
+	margin-top: 5px;
+}
+
+.birthdayblock{
+	
+	display: grid;
+	grid-template-columns: 38% 50%;
+
+}
+
+.birthdayblock1{
+}
+
+.birthdayblock2 label{
+
+	font-size: 12px;
+	color:#3b5998;
+	display: inline-block;
+	margin-top: 30px;
+}
+
+.gender{
+	display: grid;
+	grid-template-columns: 15% 70%;
+	margin-top: 15px;
+}
+
+.gender label{
+	font-size: 20px;
+}
+
+.agreementblock{
+	display: inline-block;
+	margin-top: 15px;
+	font-size: 12px;
+	color: #696969;
+}
+
+.signupbutton input[type="submit"]{
+
+	background-color: 	#228B22;
+	color: white;
+	margin-top: 20px;
+	height: 40px;
+	width: 200px;
+	border: none;
+	border-radius: 5px;
+	font-size: 19px;
+}
+
+.firstcolumntitle{
+	display: inline-block;
+	margin-top: 60px;
+	margin-left: 150px;
+	font-family: Segoe UI;
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.firstcolumnsubtitle1{
+	display: grid;
+	grid-template-columns: 35% 65%;
+	margin-left: 150px;
+	margin-top: 60px;
+}
+
+.subtitle11{
+	font-weight: bold;
+	font-size: 20px;
+
+}
+
+.subtitle12{
+	font-size: 20px;
+	color: #696969;
+}
+
+.firstcolumnsubtitle2{
+	display: grid;
+	grid-template-columns: 27% 73%;
+	margin-left: 150px;
+	margin-top: 60px;
+}
+
+.firstcolumnsubtitle3{
+	display: grid;
+	grid-template-columns: 17% 83%;
+	margin-left: 150px;
+	margin-top: 60px;
+}
+
+.agreementblock span{
+
+	color:#3b5998;
+}

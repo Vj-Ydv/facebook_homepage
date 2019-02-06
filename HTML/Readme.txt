@@ -1,1 +1,1 @@
-This is a simple example of HTM and CSS.
+This program is a simple example of HTML and CSS.
